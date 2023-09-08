@@ -12,7 +12,7 @@
 <body>
 
     <header>
-        <nav class="yellow darken-4">
+        <nav class="light-blue darken-2">
             <div class="nav-wrapper">
               <a href="{{ url_for('home') }}" class="brand-logo">Task Manager</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
@@ -36,16 +36,16 @@
         {% endblock %}
     </main>
 
-    <footer class="page-footer yellow darken-4">
+    <footer class="light-blue darken-2">
         <div class="footer-copyright">
           <div class="container">
             Task Manager App
           <a class="grey-text text-lighten-4 right" href="https://codeinstitude.net">&copy: Code Institude</a>
           </div>
         </div>
-      </footer
+      </footer>
 
-    <!-- Compiled and minified JavaScript -->
+    <!--- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
