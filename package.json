@@ -1,21 +1,21 @@
 {
-    "name": "TaskManagerApp",
-    "version": "1.0.0",
-    "description": "",
-    "main": "run.py",
-    "scripts": {
-        "build": "echo \"No build specified\" && exit 1",
-        "test": "echo \"No test specified\" && exit 1",
-        "start": "node index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/DonnavanStaddon/TaskManagerApp.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/DonnavanStaddon/TaskManagerApp/issues"
-    },
-    "homepage": "https://github.com/DonnavanStaddon/TaskManagerApp#readme"
+  "name": "TaskManagerApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "build": "echo \"No build specified\" && exit 1",
+      "test": "echo \"No test specified\" && exit 1",
+      "start": "node index.js"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DonnavanStaddon/TaskManagerApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+      "url": "https://github.com/DonnavanStaddon/TaskManagerApp/issues"
+  },
+  "homepage": "https://github.com/DonnavanStaddon/TaskManagerApp#readme"
 }
